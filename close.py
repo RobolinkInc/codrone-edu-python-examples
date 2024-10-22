@@ -6,10 +6,8 @@ drone.pair()
 
 
 drone.takeoff()
-drone.set_pitch(50)
-drone.move(1)
-print(drone.get_flow_x())
+drone.hover(1)
 drone.land()
 
 
-drone.close()
+drone.close() # closes connection between controller and program

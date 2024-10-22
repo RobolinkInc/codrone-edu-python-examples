@@ -5,7 +5,7 @@ drone = Drone()
 drone.pair()
 
 
-temperature = drone.get_temperature()
+temperature = drone.get_drone_temperature()
 print(temperature)
 
 

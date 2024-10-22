@@ -7,7 +7,7 @@ drone.pair()
 
 max_bottom_range = 100
 drone.takeoff()
-drone.set_throttle(20)
+drone.set_throttle(50)
 current_bottom_range = drone.get_bottom_range("cm")
 while current_bottom_range <= max_bottom_range:
   drone.move()

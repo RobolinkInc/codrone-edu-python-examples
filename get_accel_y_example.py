@@ -6,7 +6,7 @@ drone.pair()
 
 
 drone.takeoff()
-print(drone.get_x_accel())
+print(drone.get_accel_y())
 drone.land()
 
 

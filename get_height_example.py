@@ -7,7 +7,7 @@ drone.pair()
 
 max_height = 100
 drone.takeoff()
-drone.set_throttle(20)
+drone.set_throttle(50)
 current_height = drone.get_height("cm")
 while current_height <= max_height:
   drone.move()

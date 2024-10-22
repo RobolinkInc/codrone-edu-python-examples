@@ -8,7 +8,7 @@ drone.pair()
 drone.takeoff()
 drone.set_roll(50)
 drone.move(1)
-print(drone.get_flow_y())
+print(drone.get_flow_velocity_y())
 drone.land()
 
 
