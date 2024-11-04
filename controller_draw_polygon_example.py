@@ -15,5 +15,4 @@ drone.controller_draw_polygon(point_list, image) # forms polygon using list of p
 drone.controller_draw_canvas(image)  # draw image onto controller screen
 
 
-
 drone.close()

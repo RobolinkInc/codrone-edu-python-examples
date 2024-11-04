@@ -6,7 +6,7 @@ drone.pair()
 
 
 drone.controller_clear_screen() # clear screen for drawing
-image = drone.controller_create_canvas()  # creates an image object, the canvas
+image = drone.controller_create_canvas()  # creates image object, the canvas
 
 arc_list = [(20, 40), (50, 50)]
 ellipse_list = [(10, 10), (40, 40)]

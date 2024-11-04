@@ -5,12 +5,18 @@ drone = Drone()
 drone.pair()
 
 
-drone.controller_clear_screen()
-image = drone.controller_create_canvas() # creates an image object, the canvas
+drone.controller_clear_screen() # clear screen for drawing
+image = drone.controller_create_canvas()  # create image object, the canvas
 
-# draws the string "Hello, world!" at (0,0) on canvas
-drone.controller_draw_string(0, 0, "Hello, world!", image)
+arc_list = [(20, 40), (50, 50)]
+ellipse_list = [(10, 10), (40, 40)]
+chord_list = [(60, 20), (100, 50)]
 
-drone.controller_draw_canvas(image)  # draw image onto controller screen
+drone.controller_draw_ellipse(ellipse_list, image) # draw onto image object
+drone.controller_draw_arc(arc_list, 0, 180, image)
+drone.controller_draw_chord(chord_list, 0, 180, image)
+
+drone.controller_preview_canvas()  # a window will pop up with your drawing
+
 
 drone.close()

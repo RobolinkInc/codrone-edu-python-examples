@@ -4,6 +4,8 @@ from codrone_edu.drone import *
 drone = Drone()
 drone.pair()
 
-drone.controller_clear_screen() # resets controller screen
+
+print(drone.get_y_angle())
+
 
 drone.close()
