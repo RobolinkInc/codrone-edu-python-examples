@@ -5,7 +5,7 @@ drone = Drone()
 drone.pair()
 
 
-print(drone.get_z_angle())
+print(drone.get_angle_x())
 
 
 drone.close()

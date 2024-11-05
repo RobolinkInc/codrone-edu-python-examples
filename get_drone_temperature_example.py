@@ -5,7 +5,8 @@ drone = Drone()
 drone.pair()
 
 
-print(drone.get_z_angle())
+temperature = drone.get_drone_temperature()
+print(temperature)
 
 
 drone.close()

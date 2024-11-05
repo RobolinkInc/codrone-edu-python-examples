@@ -5,7 +5,9 @@ drone = Drone()
 drone.pair()
 
 
-print(drone.get_z_angle())
+drone.takeoff()
+print(drone.get_accel_y())
+drone.land()
 
 
 drone.close()
