@@ -5,8 +5,6 @@ drone = Drone()
 drone.pair()
 
 
-drone.controller_clear_screen() # clear screen for drawing
-
 # NOTE: Everytime controller_create_canvas is called, the preview canvas is reset
 image = drone.controller_create_canvas()  # creates an image object, the canvas
 

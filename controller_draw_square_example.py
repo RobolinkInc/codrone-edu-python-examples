@@ -5,7 +5,6 @@ drone = Drone()
 drone.pair()
 
 
-drone.controller_clear_screen()
 image = drone.controller_create_canvas()  # creates an image object, the canvas
 
 # draws a square on canvas that's 30 x 30px at (0, 0)
