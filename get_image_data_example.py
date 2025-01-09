@@ -10,3 +10,5 @@ for i in range(len(img_list)):
     img = drone.get_image_data(img_list[i]) # img stores image data
     drone.controller_draw_image(img) # draws image on controller
     time.sleep(1)
+
+drone.close()
