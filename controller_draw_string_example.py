@@ -5,7 +5,6 @@ drone = Drone()
 drone.pair()
 
 
-drone.controller_clear_screen() # clear screen for drawing
 image = drone.controller_create_canvas()  # create image object, the canvas
 
 arc_list = [(20, 40), (50, 50)]
