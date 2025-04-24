@@ -6,8 +6,12 @@ drone.pair()
 
 
 drone.takeoff()
-drone.go(50, 50, 0, 0, 5) # Drone flies diagonally forward and right for 5 seconds
-drone.land()
 
+drone.go("forward", 30, 1) # move forward at 30% power for 1 second
+drone.go("backward", 30, 1) # move backward at 30% power for 1 second
+drone.go("right", 30, 1) # move right at 30% power for 1 second
+drone.go("left", 30, 1) # move left at 30% power for 1 second
+
+drone.land()
 
 drone.close()
